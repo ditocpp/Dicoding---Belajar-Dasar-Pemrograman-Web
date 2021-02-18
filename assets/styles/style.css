@@ -10,6 +10,10 @@ h2,h3 {
     color: #00a2c6
 }
 
+header{
+    display: inline;
+}
+
 footer {
     padding: 20px;
     color: white;
@@ -67,6 +71,8 @@ nav li {
 nav {
     background-color: #00a2c6;
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
