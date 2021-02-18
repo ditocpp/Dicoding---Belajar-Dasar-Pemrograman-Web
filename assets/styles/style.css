@@ -95,3 +95,11 @@ aside {
 * {
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1024px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
